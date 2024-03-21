@@ -47,7 +47,17 @@ class MQTTClient:
     def on_message(self, client, userdata, msg):
         payload = msg.payload.decode("utf-8")
         print("Received " + payload + " from " + str(msg.topic))
-        self.recvCallBack(payload)
+        if (str(msg.topic) == "kd77/feeds/button1"):
+            if payload == "0":
+                self.recvCallBack("1")
+            else:
+                self.recvCallBack("2")
+        if (str(msg.topic) == "kd77/feeds/button2"):
+            if payload == "0":
+                self.recvCallBack("3")
+            else:
+                self.recvCallBack("4")
+                
 
     def on_subscribe(self, client, userdata, mid, granted_qos):
         print("Subscribed Successfully")
