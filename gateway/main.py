@@ -3,6 +3,7 @@ from mqtt import MQTTClient
 import os
 from dotenv import load_dotenv
 from simpleAI import *
+
 from uart import *
 
 load_dotenv()
@@ -21,12 +22,14 @@ TOPICS = [
 ]
 
 
-# def test(payload):
-#     print("test: " + payload)
+def test(payload):
+    print("test: " + payload)
 
 
 mqttClient = MQTTClient(MQTT_SERVER, MQTT_PORT, TOPICS, MQTT_USERNAME, MQTT_PASSWORD)
 mqttClient.setRecvCallBack(writeSerial)
+# mqttClient.setRecvCallBack(test)
+
 mqttClient.connect()
 
 # counter_ai = 5
@@ -35,10 +38,9 @@ while True:
     # if counter_ai <= 0:
     #     result, confidence_score = imageDetector()
     #     if result is not None and confidence_score is not None:
-    #         msg = result + " " +  str(np.round(confidence_score * 100))[:-2]
+    #         msg = result + " " + str(np.round(confidence_score * 100))[:-2]
     #         mqttClient.publishMessage("kd77/feeds/ai", msg)
     #     counter_ai = 5
-
 
     readSerial(mqttClient)
     time.sleep(1)
