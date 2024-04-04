@@ -1,5 +1,5 @@
 class APIConstant {
-  static const adafruitKey = "aio_sfhl12k3LtORyGyX8A8rfUK1PPfz";
+  static const adafruitKey = "";
 
   static const fan =
       "https://io.adafruit.com/api/v2/theloc3101/feeds/device1/data";
