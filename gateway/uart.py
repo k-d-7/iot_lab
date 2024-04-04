@@ -12,7 +12,7 @@ def getPort():
             splitPort = strPort.split(" ")
             commPort = splitPort[0]
     # return commPort
-    return "/dev/pts/4"
+    return "/dev/pts/6"
 
 
 if getPort() != "None":
@@ -27,6 +27,10 @@ def processData(client, data):
     print(splitData)
     if splitData[0] == "T":
         client.publishMessage("kd77/feeds/sensor1", splitData[1])
+    elif splitData[0] == "H":
+        client.publishMessage("kd77/feeds/sensor3", splitData[1])
+    elif splitData[0] == "L":
+        client.publishMessage("kd77/feeds/sensor2", splitData[1])
 
 
 mess = ""

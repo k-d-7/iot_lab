@@ -1,0 +1,15 @@
+{
+  "" : {
+    "const-values" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/Try.build/Objects-normal/arm64/Try-master.swiftconstvalues",
+    "dependencies" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/Try.build/Objects-normal/arm64/Try-master.d",
+    "diagnostics" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/Try.build/Objects-normal/arm64/Try-master.dia",
+    "emit-module-dependencies" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/Try.build/Objects-normal/arm64/Try-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/Try.build/Objects-normal/arm64/Try-master-emit-module.dia",
+    "swift-dependencies" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/Try.build/Objects-normal/arm64/Try-master.swiftdeps"
+  },
+  "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/Pods/Try/Try/trap.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Try.build/Objects-normal/arm64/trap.o",
+    "llvm-bc" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/Try.build/Objects-normal/arm64/trap.bc",
+    "object" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/Try.build/Objects-normal/arm64/trap.o"
+  }
+}

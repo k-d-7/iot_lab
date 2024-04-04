@@ -1,0 +1,30 @@
+{
+  "" : {
+    "const-values" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/flutter_tts-master.swiftconstvalues",
+    "dependencies" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/flutter_tts-master.d",
+    "diagnostics" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/flutter_tts-master.dia",
+    "emit-module-dependencies" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/flutter_tts-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/flutter_tts-master-emit-module.dia",
+    "swift-dependencies" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/flutter_tts-master.swiftdeps"
+  },
+  "/Users/cuongtran/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/ios/Classes/AudioCategory.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/AudioCategory.o",
+    "llvm-bc" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/AudioCategory.bc",
+    "object" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/AudioCategory.o"
+  },
+  "/Users/cuongtran/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/ios/Classes/AudioCategoryOptions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/AudioCategoryOptions.o",
+    "llvm-bc" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/AudioCategoryOptions.bc",
+    "object" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/AudioCategoryOptions.o"
+  },
+  "/Users/cuongtran/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/ios/Classes/AudioModes.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/AudioModes.o",
+    "llvm-bc" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/AudioModes.bc",
+    "object" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/AudioModes.o"
+  },
+  "/Users/cuongtran/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/ios/Classes/SwiftFlutterTtsPlugin.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/SwiftFlutterTtsPlugin.o",
+    "llvm-bc" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/SwiftFlutterTtsPlugin.bc",
+    "object" : "/Users/cuongtran/Documents/SmartHome/ModernSmartHomeUI/ios/build/Pods.build/Release-iphoneos/flutter_tts.build/Objects-normal/arm64/SwiftFlutterTtsPlugin.o"
+  }
+}

@@ -1,6 +1,6 @@
 {
-    "name": "iot_mobile",
-    "short_name": "iot_mobile",
+    "name": "smarthomeui",
+    "short_name": "smarthomeui",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

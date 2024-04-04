@@ -1,4 +1,4 @@
-package com.example.iot_mobile
+package com.example.smarthomeui
 
 import io.flutter.embedding.android.FlutterActivity
 
